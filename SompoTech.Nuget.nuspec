@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>SompoTech.ProjectInfrastructure</id>
+    <version>1.0.1</version>
+    <title>SompoTech Infrastructure</title>
+    <authors>Adem Olguner</authors>
+    <owners>Sompo Sigorta Tech</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/ademolguner/AdemNugetDataConverter</projectUrl>
+    <iconUrl>https://ademolguner.com/sompoicon.jpeg</iconUrl>
+    <description>Projelerde altyapı tasarımı yaparak standart işleri bir paket haline getirildi. (Log-Exception-Caching vb...)</description>
+    <releaseNotes>DataConvert işlemi için static class olusturuldu ve static metot çağrımı yapılarak devam edilecek</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>CrossCuttingOperations Log Exception Caching  Infrastructure ObjectConvert JsonConvert JsonSerialize JsonDeserialize</tags>
+    <dependencies>
+      <group targetFramework="netcoreapp3.1">
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.3" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="3.1.3" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netcoreapp3.1\SompoTech.Nuget.dll" target="bin\Release\netcoreapp3.1\SompoTech.Nuget.dll" />
+    <file src="sompoicon.jpeg" target="sompoicon.jpeg" />
+  </files>
+</package>
